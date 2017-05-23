@@ -13,7 +13,7 @@ request.setAttribute("name", name1);
 </head>
 
 <body>
-<h1>Today webapps</h1>
+<h1>Split codes and maven</h1>
 
 <h2>Finally three ! You are  <%=name1 %> <%= new java.util.Date()%>!</h2>
 </body>
