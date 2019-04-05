@@ -1,4 +1,4 @@
-package csphere.xc.dao;
+package oce.xc.dao;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -8,7 +8,7 @@ import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
-import csphere.xc.po.User;
+import oce.xc.po.User;
 
 
 
@@ -26,7 +26,7 @@ public class user_select {
 			    SqlSession sqlSession = sqlSessionFactory.openSession();
 			    
 			  
-			    User user =  sqlSession.selectOne("csphere.xc.findUserById", 1);
+			    User user =  sqlSession.selectOne("oce.xc.findUserById", 1);
 			    
 			    System.err.println("haha-----------------"+user.getName());
 			   

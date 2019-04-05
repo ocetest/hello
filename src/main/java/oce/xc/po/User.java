@@ -1,4 +1,4 @@
-package csphere.xc.po;
+package oce.xc.po;
 
 public class User {
 
